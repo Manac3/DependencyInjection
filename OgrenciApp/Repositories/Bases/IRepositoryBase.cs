@@ -10,5 +10,6 @@ namespace OgrenciApp.Repositories.Bases
     public interface IRepositoryBase
     {
         Ogrenci[] Getir();
+        Ogrenci Getir(int index);
     }
 }

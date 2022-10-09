@@ -16,5 +16,9 @@ namespace OgrenciApp.Repositories
         {
             return OgrenciData.Ogrenciler;
         }
+        public Ogrenci Getir(int index)
+        {
+            return OgrenciData.Ogrenciler[index];
+        }
     }
 }
